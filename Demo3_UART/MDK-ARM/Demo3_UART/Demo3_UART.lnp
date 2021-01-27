@@ -1,0 +1,28 @@
+--cpu Cortex-M4.fp
+"demo3_uart\startup_stm32f429xx.o"
+"demo3_uart\stm32f4xx_hal.o"
+"demo3_uart\stm32f4xx_hal_gpio.o"
+"demo3_uart\stm32f4xx_hal_flash_ex.o"
+"demo3_uart\stm32f4xx_hal_flash.o"
+"demo3_uart\stm32f4xx_hal_dma.o"
+"demo3_uart\stm32f4xx_hal_flash_ramfunc.o"
+"demo3_uart\stm32f4xx_hal_dma_ex.o"
+"demo3_uart\stm32f4xx_hal_tim.o"
+"demo3_uart\stm32f4xx_hal_pwr.o"
+"demo3_uart\stm32f4xx_hal_tim_ex.o"
+"demo3_uart\stm32f4xx_hal_cortex.o"
+"demo3_uart\stm32f4xx_hal_uart.o"
+"demo3_uart\stm32f4xx_hal_rcc.o"
+"demo3_uart\stm32f4xx_hal_pwr_ex.o"
+"demo3_uart\stm32f4xx_hal_rcc_ex.o"
+"demo3_uart\system_stm32f4xx.o"
+"demo3_uart\stm32f4xx_hal_msp.o"
+"demo3_uart\main.o"
+"demo3_uart\stm32f4xx_it.o"
+"demo3_uart\delay.o"
+"demo3_uart\queue.o"
+"demo3_uart\sys.o"
+--library_type=microlib --strict --scatter "Demo3_UART\Demo3_UART.sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Demo3_UART.map" -o Demo3_UART\Demo3_UART.axf
