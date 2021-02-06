@@ -1,0 +1,28 @@
+--cpu Cortex-M4.fp
+"demo5_timer\startup_stm32f429xx.o"
+"demo5_timer\delay.o"
+"demo5_timer\queue.o"
+"demo5_timer\sys.o"
+"demo5_timer\main.o"
+"demo5_timer\stm32f4xx_it.o"
+"demo5_timer\stm32f4xx_hal_msp.o"
+"demo5_timer\stm32f4xx_hal_tim.o"
+"demo5_timer\stm32f4xx_hal_tim_ex.o"
+"demo5_timer\stm32f4xx_hal_rcc.o"
+"demo5_timer\stm32f4xx_hal_rcc_ex.o"
+"demo5_timer\stm32f4xx_hal_flash.o"
+"demo5_timer\stm32f4xx_hal_flash_ex.o"
+"demo5_timer\stm32f4xx_hal_flash_ramfunc.o"
+"demo5_timer\stm32f4xx_hal_gpio.o"
+"demo5_timer\stm32f4xx_hal_dma_ex.o"
+"demo5_timer\stm32f4xx_hal_dma.o"
+"demo5_timer\stm32f4xx_hal_pwr.o"
+"demo5_timer\stm32f4xx_hal_pwr_ex.o"
+"demo5_timer\stm32f4xx_hal_cortex.o"
+"demo5_timer\stm32f4xx_hal.o"
+"demo5_timer\stm32f4xx_hal_exti.o"
+"demo5_timer\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "Demo5_Timer\Demo5_Timer.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Demo5_Timer.map" -o Demo5_Timer\Demo5_Timer.axf
