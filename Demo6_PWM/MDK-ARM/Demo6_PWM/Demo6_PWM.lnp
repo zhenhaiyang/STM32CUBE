@@ -1,0 +1,25 @@
+--cpu Cortex-M4.fp
+"demo6_pwm\startup_stm32f429xx.o"
+"demo6_pwm\main.o"
+"demo6_pwm\stm32f4xx_it.o"
+"demo6_pwm\stm32f4xx_hal_msp.o"
+"demo6_pwm\stm32f4xx_hal_tim.o"
+"demo6_pwm\stm32f4xx_hal_tim_ex.o"
+"demo6_pwm\stm32f4xx_hal_rcc.o"
+"demo6_pwm\stm32f4xx_hal_rcc_ex.o"
+"demo6_pwm\stm32f4xx_hal_flash.o"
+"demo6_pwm\stm32f4xx_hal_flash_ex.o"
+"demo6_pwm\stm32f4xx_hal_flash_ramfunc.o"
+"demo6_pwm\stm32f4xx_hal_gpio.o"
+"demo6_pwm\stm32f4xx_hal_dma_ex.o"
+"demo6_pwm\stm32f4xx_hal_dma.o"
+"demo6_pwm\stm32f4xx_hal_pwr.o"
+"demo6_pwm\stm32f4xx_hal_pwr_ex.o"
+"demo6_pwm\stm32f4xx_hal_cortex.o"
+"demo6_pwm\stm32f4xx_hal.o"
+"demo6_pwm\stm32f4xx_hal_exti.o"
+"demo6_pwm\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "Demo6_PWM\Demo6_PWM.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Demo6_PWM.map" -o Demo6_PWM\Demo6_PWM.axf
