@@ -61,3 +61,15 @@
 
 
 
+## 7.Capture
+
+该实验通过TIM8实现捕获功能，其捕获管脚为PC6。
+
+1. testInput：改变PWM波的占空比
+2. testResultPulse：捕获正脉冲时钟数，精度为180MHz
+3. testResultPeriod: 捕获PWM一个周期时钟数，精度为180MHz
+
+在调试模式中，通过修改PWM波的占空比，比较ARM硬件捕获的能力。
+
+
+

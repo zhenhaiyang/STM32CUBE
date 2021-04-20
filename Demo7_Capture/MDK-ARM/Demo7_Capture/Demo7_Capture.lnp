@@ -1,0 +1,28 @@
+--cpu Cortex-M4.fp
+"demo7_capture\startup_stm32f429xx.o"
+"demo7_capture\main.o"
+"demo7_capture\stm32f4xx_it.o"
+"demo7_capture\stm32f4xx_hal_msp.o"
+"demo7_capture\stm32f4xx_hal_tim.o"
+"demo7_capture\stm32f4xx_hal_tim_ex.o"
+"demo7_capture\stm32f4xx_hal_rcc.o"
+"demo7_capture\stm32f4xx_hal_rcc_ex.o"
+"demo7_capture\stm32f4xx_hal_flash.o"
+"demo7_capture\stm32f4xx_hal_flash_ex.o"
+"demo7_capture\stm32f4xx_hal_flash_ramfunc.o"
+"demo7_capture\stm32f4xx_hal_gpio.o"
+"demo7_capture\stm32f4xx_hal_dma_ex.o"
+"demo7_capture\stm32f4xx_hal_dma.o"
+"demo7_capture\stm32f4xx_hal_pwr.o"
+"demo7_capture\stm32f4xx_hal_pwr_ex.o"
+"demo7_capture\stm32f4xx_hal_cortex.o"
+"demo7_capture\stm32f4xx_hal.o"
+"demo7_capture\stm32f4xx_hal_exti.o"
+"demo7_capture\system_stm32f4xx.o"
+"demo7_capture\capture.o"
+"demo7_capture\sys.o"
+"demo7_capture\delay.o"
+--library_type=microlib --strict --scatter "Demo7_Capture\Demo7_Capture.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Demo7_Capture.map" -o Demo7_Capture\Demo7_Capture.axf

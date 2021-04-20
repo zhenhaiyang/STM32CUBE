@@ -1,0 +1,25 @@
+--cpu Cortex-M4.fp
+"demo1_key\stm32f4xx_it.o"
+"demo1_key\main.o"
+"demo1_key\stm32f4xx_hal_msp.o"
+"demo1_key\delay.o"
+"demo1_key\startup_stm32f429xx.o"
+"demo1_key\system_stm32f4xx.o"
+"demo1_key\stm32f4xx_hal_cortex.o"
+"demo1_key\stm32f4xx_hal_gpio.o"
+"demo1_key\stm32f4xx_hal_dma_ex.o"
+"demo1_key\stm32f4xx_hal_tim.o"
+"demo1_key\stm32f4xx_hal_dma.o"
+"demo1_key\stm32f4xx_hal_flash.o"
+"demo1_key\stm32f4xx_hal_pwr_ex.o"
+"demo1_key\stm32f4xx_hal_rcc_ex.o"
+"demo1_key\stm32f4xx_hal_pwr.o"
+"demo1_key\stm32f4xx_hal_flash_ex.o"
+"demo1_key\stm32f4xx_hal_rcc.o"
+"demo1_key\stm32f4xx_hal_tim_ex.o"
+"demo1_key\stm32f4xx_hal_flash_ramfunc.o"
+"demo1_key\stm32f4xx_hal.o"
+--library_type=microlib --strict --scatter "demo1_key\demo1_key.sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "demo1_key.map" -o demo1_key\demo1_key.axf
