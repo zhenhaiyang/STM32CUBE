@@ -1,0 +1,19 @@
+{
+    "files.associations": {
+        "lcd.h": "c",
+        "delay.h": "c",
+        "sys.h": "c",
+        "stm32f4xx_hal.h": "c",
+        "font.h": "c",
+        "ios": "c",
+        "istream": "c",
+        "ostream": "c",
+        "streambuf": "c",
+        "*.tcc": "c",
+        "string_view": "c",
+        "fstream": "c",
+        "iosfwd": "c",
+        "sstream": "c",
+        "stdexcept": "c"
+    }
+}
