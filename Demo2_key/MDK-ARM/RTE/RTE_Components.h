@@ -3,8 +3,8 @@
  * Auto generated Run-Time-Environment Component Configuration File
  *      *** Do not modify ! ***
  *
- * Project: 'demo1_key' 
- * Target:  'demo1_key' 
+ * Project: 'Key' 
+ * Target:  'Key' 
  */
 
 #ifndef RTE_COMPONENTS_H
